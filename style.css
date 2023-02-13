@@ -1,0 +1,90 @@
+body {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 350px 500px;
+}
+
+/* Ce qui concerne le menu a gauche */
+.menu{
+    display: grid;
+    grid-template-rows: 100px 20px;
+    
+}
+
+#podcasts {
+    display: flex;
+    color :black;
+    align-items: center;
+    justify-content: center;
+}
+
+#twitter {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;  
+}
+
+#twitter_png {
+    width: 20px;
+    height: auto;
+    
+}
+
+
+
+/* Ce qui concerne l episode de podcast */
+
+#premier{
+    display: flex;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 25px 50px 400px 50px;
+    
+}
+
+/* Boutton play */
+#play {
+    position: flex;
+    width: 30px ;
+    height: auto;
+    color: antiquewhite;
+    background-color: transparent;
+    border: none; 
+}
+#play_png {
+    position: flex;
+    width: 30px;
+    height: auto;
+
+}
+
+/* Progress bar */
+#hp_slide{
+    position: flex;
+    margin-top: 23px;
+    width:100%;
+    background:white;
+    height:10px;
+    border-radius: 30px;
+}
+#hp_range{
+    position: flex;
+    width:0;
+    background:black;
+    height:10px;
+}
+
+/* Affichage de la duree */
+#duree {
+    position: flex;
+    margin-left: 5px;
+}
+
+
+#N1 {
+    width: auto;
+}
+
+
