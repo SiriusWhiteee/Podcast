@@ -9,12 +9,12 @@ let duree = document.getElementById("duree");
 // Met en route le fichier lorsque le bouton play est cliqué et met en pause lorsque le 
 // bouton pause est cliqué
 function changeImage(){
-    if(image.src=="file:///C:/Users/BRAIK/Documents/30DaysOfReact/playpng.png"){
-        image.src="file:///C:Users/BRAIK/Documents/30DaysOfReact/pausepng.png";
+    if(image.src=="playpng.png"){
+        image.src="pausepng.png";
         podcast.play();
     }
     else {
-        image.src="file:///C:/Users/BRAIK/Documents/30DaysOfReact/playpng.png";
+        image.src="playpng.png";
         podcast.pause();
     }
 }
